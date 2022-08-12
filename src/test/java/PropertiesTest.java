@@ -4,6 +4,7 @@ import org.junit.Test;
 import java.io.IOException;
 
 public class PropertiesTest extends BaseTest {
+    
     @Test
     public void readProperties() throws IOException {
         System.getProperties().load(ClassLoader.getSystemResourceAsStream("application.properties"));
