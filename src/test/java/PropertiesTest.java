@@ -10,7 +10,7 @@ public class PropertiesTest extends BaseTest {
         String urlFromProperty = System.getProperty("url");
         System.out.println(urlFromProperty);
     }
-
+    
     @Test
     public void readFromConf(){
         String urlFromConf = ConfigProvider.URL;
