@@ -13,7 +13,7 @@ public class PropertiesTest extends BaseTest {
     }
     
     @Test
-    public void readFromConf(){
+    public void readFromConf() {
         String urlFromConf = ConfigProvider.URL;
         System.out.println(urlFromConf);
         Boolean isViniAdmin = ConfigProvider.IS_VINI_ADMIN;
