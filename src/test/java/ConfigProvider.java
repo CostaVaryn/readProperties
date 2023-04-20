@@ -13,7 +13,7 @@ public interface ConfigProvider {
     String URL = readConfig().getString("url");
     Integer AGE = readConfig().getInt("age");
     String ADMIN_LOGIN = readConfig().getString("usersParams.admin.login");
-    String VINI_PASSWORD = readConfig().getString("usersParams.vini.password");
-    Boolean IS_VINI_ADMIN = readConfig().getBoolean("usersParams.vini.isAdmin");
+    String USER_PASSWORD = readConfig().getString("usersParams.user.password");
+    Boolean IS_USER_ADMIN = readConfig().getBoolean("usersParams.user.isAdmin");
 
 }
