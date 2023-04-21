@@ -14,6 +14,7 @@ public interface ConfigProvider {
     Integer AGE = readConfig().getInt("age");
     String ADMIN_LOGIN = readConfig().getString("usersParams.admin.login");
     String USER_PASSWORD = readConfig().getString("usersParams.user.password");
-    Boolean IS_USER_ADMIN = readConfig().getBoolean("usersParams.user.isAdmin");
+    Boolean USER_IS_ADMIN = readConfig().getBoolean("usersParams.user.isAdmin");
+    Boolean ADMIN_IS_ADMIN = readConfig().getBoolean("usersParams.admin.isAdmin");
 
 }
