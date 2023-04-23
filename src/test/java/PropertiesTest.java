@@ -16,6 +16,7 @@ public class PropertiesTest extends BaseTest {
     public void readFromConf() {
         System.out.println("URL from config: " + ConfigProvider.URL);
         System.out.println("Login(admin): " + ConfigProvider.ADMIN_LOGIN);
+        System.out.println("Age: " + ConfigProvider.AGE);
         System.out.println("User is admin: " + ConfigProvider.USER_IS_ADMIN);
         System.out.println("Admin is admin: " + ConfigProvider.ADMIN_IS_ADMIN);
         if (ConfigProvider.readConfig().getBoolean("usersParams.admin.isAdmin")) {
