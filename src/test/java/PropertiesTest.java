@@ -8,8 +8,8 @@ public class PropertiesTest extends BaseTest {
     @Test
     public void readProperties() throws IOException {
         System.getProperties().load(ClassLoader.getSystemResourceAsStream("application.properties"));
-        String urlFromProperty = System.getProperty("url");
-        System.out.println("URL from properties: " + urlFromProperty);
+        System.out.println("URL from properties: " + System.getProperty("url"));
+        System.out.println("Login from properties: " + System.getProperty("users.admin.login"));
     }
 
     @Test
