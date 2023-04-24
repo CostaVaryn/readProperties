@@ -10,6 +10,7 @@ public class PropertiesTest extends BaseTest {
         System.getProperties().load(ClassLoader.getSystemResourceAsStream("application.properties"));
         System.out.println("URL from properties: " + System.getProperty("url"));
         System.out.println("Login from properties: " + System.getProperty("users.admin.login"));
+        System.out.println("Login from properties: " + System.getProperty("users.adam.login"));
     }
 
     @Test
